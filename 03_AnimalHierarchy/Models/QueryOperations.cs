@@ -10,8 +10,7 @@ namespace _03_AnimalHierarchy.Models
     {
         public static double AverageAge(params Animals[] animals)
         {
-            var temp = animals.Select(animal => animal.Age).ToList();
-            var result = temp.Average();
+            var result = animals.Select(animal => animal.Age).ToList().Average();
 
             return result;
         }
