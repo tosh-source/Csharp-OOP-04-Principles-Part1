@@ -43,14 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Animals.cs" />
-    <Compile Include="Models\Cats.cs" />
-    <Compile Include="Models\Dogs.cs" />
-    <Compile Include="Models\Frogs.cs" />
-    <Compile Include="Models\ISound.cs" />
-    <Compile Include="Models\Kittens.cs" />
-    <Compile Include="Models\Sex.cs" />
-    <Compile Include="Models\Tomcat.cs" />
+    <Compile Include="Models\Animals\Animals.cs" />
+    <Compile Include="Models\Animals\Cats.cs" />
+    <Compile Include="Models\Animals\Dogs.cs" />
+    <Compile Include="Models\Animals\Frogs.cs" />
+    <Compile Include="Models\Animals\ISound.cs" />
+    <Compile Include="Models\Animals\Kittens.cs" />
+    <Compile Include="Models\Animals\Sex.cs" />
+    <Compile Include="Models\Animals\Tomcat.cs" />
+    <Compile Include="Models\QueryOperations.cs" />
     <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,5 +59,6 @@
     <None Include="App.config" />
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

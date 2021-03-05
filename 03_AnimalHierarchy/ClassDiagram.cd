@@ -4,7 +4,7 @@
     <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAARAAAAEQAAAQAAAAEAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Models\Animals.cs</FileName>
+      <FileName>Models\Animals\Animals.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -12,35 +12,35 @@
     <Position X="2.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Models\Cats.cs</FileName>
+      <FileName>Models\Animals\Cats.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_03_AnimalHierarchy.Models.Dogs">
     <Position X="5.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Models\Dogs.cs</FileName>
+      <FileName>Models\Animals\Dogs.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_03_AnimalHierarchy.Models.Frogs">
     <Position X="7.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Models\Frogs.cs</FileName>
+      <FileName>Models\Animals\Frogs.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_03_AnimalHierarchy.Models.Kittens">
     <Position X="1.5" Y="6" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Models\Kittens.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAA=</HashCode>
+      <FileName>Models\Animals\Kittens.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_03_AnimalHierarchy.Models.Tomcat">
     <Position X="4" Y="6" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Models\Tomcat.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Models\Animals\Tomcat.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_03_AnimalHierarchy.Tests" Collapsed="true">
@@ -50,18 +50,25 @@
       <FileName>Tests.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="_03_AnimalHierarchy.Models.QueryOperations">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\QueryOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="_03_AnimalHierarchy.Models.ISound" Collapsed="true">
     <Position X="1.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Models\ISound.cs</FileName>
+      <FileName>Models\Animals\ISound.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="_03_AnimalHierarchy.Models.Sex" Collapsed="true">
     <Position X="1.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
-      <FileName>Models\Sex.cs</FileName>
+      <FileName>Models\Animals\Sex.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
